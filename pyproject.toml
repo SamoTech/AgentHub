@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+redis
+anthropic
+openai
+google-generativeai
+
+[tool:pytest]
+addopts = "--cov=agenthub --cov-report=term-missing"
+
+testpaths = tests
