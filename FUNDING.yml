@@ -1,0 +1,12 @@
+github: [SamoTech]
+patreon: ossama_hashim
+open_collective: agenthub
+
+# Sponsor tiers auto-display
+tiers:
+  - name: Early Access
+    monthly: 5
+  - name: Priority
+    monthly: 25
+  - name: Enterprise
+    monthly: 100
