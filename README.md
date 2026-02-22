@@ -1,22 +1,23 @@
-# AgentHub 🚀
+# AgentHub 🚀 *(Always Updated)*
 
-AI Agent Orchestration Platform - Coordinate multiple AI providers (OpenAI, Claude, Gemini) with cost optimization, real-time dashboard, and MCP support.
+AI Agent Orchestration Platform - Coordinate **latest** AI agents (Claude 4.6 Sonnet, Codex GPT-5.2, Gemini 3.0) with 40-60% cost savings.
 
 [![Stars](https://img.shields.io/github/stars/SamoTech/AgentHub)](https://github.com/SamoTech/AgentHub/stargazers)
 [![Forks](https://img.shields.io/github/forks/SamoTech/AgentHub)](https://github.com/SamoTech/AgentHub/network/members)
 [![License](https://img.shields.io/github/license/SamoTech/AgentHub)](LICENSE)
 [![Sponsor](https://img.shields.io/badge/sponsor-9831FF?logo=github)](https://github.com/sponsors/SamoTech)
+[![Tech](https://img.shields.io/badge/tech-stack-blueviolet?logo=github)](TECH.md)
 
-## 🎯 Why AgentHub?
+## 🎯 Why AgentHub? *(Feb 2026)*
 
-- 🤖 **Multi-provider orchestration** (OpenAI, Claude, Gemini, Azure)
-- 💰 **Automatic cost optimization** - save 40-60% on API costs
-- 📊 **Real-time dashboard** - monitor usage, costs, and performance
-- 🛡️ **Smart failover** - automatic provider switching on failure
-- 🔌 **MCP-ready** - Model Context Protocol for enterprise integration
-- ⚡ **Production-ready** - FastAPI, Redis, PostgreSQL
+- 🤖 **Latest Agents**: Claude **4.6 Sonnet** (#1 coding), Codex **GPT-5.2**, Gemini **3.0 Pro**
+- 💰 **Auto Cost Optimization** - Gemini default (cheapest), Claude for complex
+- 📊 **Real-time Analytics** - Provider comparison, token tracking
+- 🛡️ **Smart Failover** - Never lose requests
+- 🔌 **MCP-Ready** - Enterprise protocol support
+- ⚡ **Production FastAPI** - Redis + PostgreSQL
 
-## 🚀 Quick Start (2 minutes)
+## 🚀 Live Demo (2 min)
 
 ```bash
 git clone https://github.com/SamoTech/AgentHub.git
@@ -25,32 +26,38 @@ pip install -r requirements.txt
 python main.py
 ```
 
-Visit **http://localhost:8000/docs** for interactive API.
+**[Open Interactive API](http://localhost:8000/docs)** → Test `/orchestrate`
 
-## 💎 Features Live Now
-✅ **Unified API** - Single endpoint for all providers
-✅ **Cost optimization** - Auto-selects cheapest provider
-✅ **Interactive docs** - Swagger/OpenAPI ready
+**Sample:** `{"prompt": "Write agent code", "provider": "auto"}` → Uses **Gemini 3.0** (cheapest)
 
-## 💰 Sponsor AgentHub
+## 💎 What's New *(Latest Commit)*
 
-Support development and get early access to Pro features!
+✅ **Claude 4.6 Sonnet** - Feb 15 release, #1 coding autonomy [web:159]
+✅ **Codex GPT-5.2** - GitHub Copilot agent [web:162]
+✅ **Gemini 3.0 Pro** - 2M context, cheapest frontier [web:160]
+✅ **Tech Stack** → [TECH.md](TECH.md) w/ Mermaid diagram
+✅ **MIT License** + Sponsor tiers
+
+## 💰 Sponsor & Get Early Access
 
 [![GitHub Sponsors](https://github-profile-sponsors-svg.vercel.app/sponsor-1.svg?repo=AgentHub&style=flat-square)](https://github.com/sponsors/SamoTech)
 
-**Tiers:**
-- 🥉 **$5/month** - Early access + Discord
-- 🥈 **$25/month** - Priority features + private beta
-- 🥇 **$100+/month** - Custom integrations + enterprise support
+**Tiers:** $5 (Early) | $25 (Priority) | $100+ (Enterprise)
 
 ## 🏗️ Architecture
 ```
-Frontend Dashboard → FastAPI Backend → AI Providers
-                          ↓
-                   Redis + PostgreSQL
+React Dashboard → FastAPI Orchestrator → Claude 4.6 | Codex | Gemini 3.0
+                                 ↓
+                           Redis + PostgreSQL + MCP
 ```
 
-## 🤝 Contributing
-See [CONTRIBUTING.md](CONTRIBUTING.md)
+**[Full Tech Stack](TECH.md)** | **[Live Backend](backend/main.py)**
 
-**Built by [Ossama Hashim](https://github.com/SamoTech)** - Cairo AI Architect
+## 🤝 Contribute
+1. ⭐ Star + Fork
+2. Add provider/test
+3. PR → Merged fast!
+
+**Built live by [Ossama Hashim](https://github.com/SamoTech)** - Cairo AI Architect
+
+*Updated: Feb 22, 2026*
