@@ -4,6 +4,8 @@ AI Agent Orchestration Platform - Coordinate multiple AI providers (OpenAI, Clau
 
 [![Stars](https://img.shields.io/github/stars/SamoTech/AgentHub)](https://github.com/SamoTech/AgentHub/stargazers)
 [![Forks](https://img.shields.io/github/forks/SamoTech/AgentHub)](https://github.com/SamoTech/AgentHub/network/members)
+[![License](https://img.shields.io/github/license/SamoTech/AgentHub)](LICENSE)
+[![Sponsor](https://img.shields.io/badge/sponsor-9831FF?logo=github)](https://github.com/sponsors/SamoTech)
 
 ## 🎯 Why AgentHub?
 
@@ -19,36 +21,36 @@ AI Agent Orchestration Platform - Coordinate multiple AI providers (OpenAI, Clau
 ```bash
 git clone https://github.com/SamoTech/AgentHub.git
 cd AgentHub/backend
-pip install uv
-uv venv
-source .venv/bin/activate
-uv pip install -e .
-uvicorn app.main:app --reload --port 8000
+pip install -r requirements.txt
+python main.py
 ```
 
 Visit **http://localhost:8000/docs** for interactive API.
 
+## 💎 Features Live Now
+✅ **Unified API** - Single endpoint for all providers
+✅ **Cost optimization** - Auto-selects cheapest provider
+✅ **Interactive docs** - Swagger/OpenAPI ready
+
+## 💰 Sponsor AgentHub
+
+Support development and get early access to Pro features!
+
+[![GitHub Sponsors](https://github-profile-sponsors-svg.vercel.app/sponsor-1.svg?repo=AgentHub&style=flat-square)](https://github.com/sponsors/SamoTech)
+
+**Tiers:**
+- 🥉 **$5/month** - Early access + Discord
+- 🥈 **$25/month** - Priority features + private beta
+- 🥇 **$100+/month** - Custom integrations + enterprise support
+
 ## 🏗️ Architecture
 ```
-Frontend Dashboard (React/Vue)
-           ↓ GraphQL/WebSocket
-FastAPI Backend (FastAPI + Redis + PostgreSQL)
-           ↓ Agent Orchestrator
-OpenAI | Claude | Gemini | Azure OpenAI
-           ↓ MCP Gateway
-Enterprise Tools & Custom APIs
+Frontend Dashboard → FastAPI Backend → AI Providers
+                          ↓
+                   Redis + PostgreSQL
 ```
 
-## 💎 Core Features Live Now
+## 🤝 Contributing
+See [CONTRIBUTING.md](CONTRIBUTING.md)
 
-✅ **Unified API** - Single endpoint for all providers  
-✅ **Cost optimization** - Auto-selects cheapest provider  
-✅ **Real-time analytics** - Track usage/costs per user  
-✅ **Automatic failover** - Never lose a request  
-✅ **Interactive docs** - Swagger/OpenAPI ready  
-
-## 💰 Sponsors
-
-[Sponsor me](https://github.com/sponsors/SamoTech) 🚀
-
-**Built by [Ossama Hashim](https://github.com/SamoTech)** - Cairo-based AI systems architect
+**Built by [Ossama Hashim](https://github.com/SamoTech)** - Cairo AI Architect
