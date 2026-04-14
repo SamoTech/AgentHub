@@ -1,6 +1,8 @@
 # 🤖 AgentHub – Production AI Agent Orchestrator
 
-> Orchestrate 83+ AI agents (Claude 4.6, Codex GPT‑5.2, Gemini 3.0) with cost‑optimized routing, Docker deployment, and a live React dashboard.
+![Banner](docs/assets/banner.svg)
+
+> Orchestrate 83+ AI agents (Claude 4.6, Codex GPT‑55.2, Gemini 3.0) with cost‑optimized routing, Docker deployment, and a live React dashboard.
 
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-009688?logo=fastapi)](https://fastapi.tiangolo.com/)
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?logo=python)](https://www.python.org/)
@@ -101,7 +103,7 @@ REDIS_URL=redis://redis:6379/0
 AGENTHUB_ENV=production
 ```
 
-> 🔒 **Never commit `.env` files**. Use Docker secrets or your cloud platform’s secret manager in production.
+> 🔒 **Never commit `.env` files**. Use Docker secrets or your cloud platform's secret manager in production.
 
 ---
 
@@ -141,7 +143,7 @@ AgentHub/
 
 ### Orchestration
 - **Claude 4.6 Sonnet** – Code/reasoning heavy tasks.
-- **Codex GPT‑5.2** – General completions, SQL.
+- **Codex GPT‑55.2** – General completions, SQL.
 - **Gemini 3.0 Pro** – Summaries, cheapest per token.
 
 ### Frontend
@@ -272,7 +274,7 @@ If AgentHub helps you orchestrate or save on AI costs:
 - ⭐ **Star** this repository.
 - 🐛 **Open issues** for bugs/feature requests.
 - 💬 **Share ideas** for new provider integrations.
-- 💖 **Sponsor** via GitHub Sponsors to accelerate the roadmap.
+- 📖 **Sponsor** via GitHub Sponsors to accelerate the roadmap.
 
 <div align="center">
 
